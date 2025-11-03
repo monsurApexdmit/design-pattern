@@ -138,6 +138,7 @@
       <path value="$PROJECT_DIR$/src/vendor/symfony/serializer" />
       <path value="$PROJECT_DIR$/src/vendor/handcraftedinthealps/elasticsearch-dsl" />
       <path value="$PROJECT_DIR$/src/vendor/matchish/laravel-scout-elasticsearch" />
+      <path value="$PROJECT_DIR$/src/vendor/php-http/guzzle7-adapter" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />

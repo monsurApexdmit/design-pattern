@@ -7,12 +7,17 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "elasticsearch/elasticsearch": "^8.0",
+        "elasticsearch/elasticsearch": "^8.11",
+        "guzzlehttp/guzzle": "^7.8",
         "laravel/framework": "^12.0",
         "laravel/sanctum": "^4.0",
         "laravel/scout": "^10.20",
         "laravel/tinker": "^2.10.1",
-        "matchish/laravel-scout-elasticsearch": "^7.12"
+        "matchish/laravel-scout-elasticsearch": "^7.12",
+        "php-http/guzzle7-adapter": "^1.1",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.1",
+        "psr/http-message": "^2.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

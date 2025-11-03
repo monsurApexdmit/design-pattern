@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'driver' => env('SCOUT_DRIVER', 'collection'),
+    'driver' => env('SCOUT_DRIVER', 'elasticsearch'),
 
     /*
     |--------------------------------------------------------------------------
@@ -54,6 +54,10 @@ return [
     | been committed, thus preventing any discarded data from syncing.
     |
     */
+    'elasticsearch' => [
+        'host' => env('ELASTICSEARCH_HOSTS', 'http://elasticsearch:9200'),
+        'index' => env('ELASTICSEARCH_INDEX', 'laravel'),
+    ],
 
     'after_commit' => false,
 
